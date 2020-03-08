@@ -1,16 +1,16 @@
 PODS:
-  - SASFramework (1.0.2)
+  - SASFramework (1.0.3)
 
 DEPENDENCIES:
-  - SASFramework (from `/Users/sukumaranupsukumaran/Desktop/Framework/SASFramework/SASFramework`)
+  - SASFramework (~> 1.0.3)
 
-EXTERNAL SOURCES:
-  SASFramework:
-    :path: "/Users/sukumaranupsukumaran/Desktop/Framework/SASFramework/SASFramework"
+SPEC REPOS:
+  https://github.com/AnupSukumaran/SASFrameworkPodSpecs.git:
+    - SASFramework
 
 SPEC CHECKSUMS:
-  SASFramework: f041af777efe02a469f6578d9612fbd78a339ace
+  SASFramework: 4fc6a0db2f0c78e82d2a7b5a4e8b0e62733f1701
 
-PODFILE CHECKSUM: 09774d10a772ac3e81f465249a49c02587a642f6
+PODFILE CHECKSUM: 9faa3bc3cc398d78bb12e79c80105f47762938ac
 
 COCOAPODS: 1.8.4

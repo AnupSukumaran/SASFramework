@@ -7,111 +7,154 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18CFE6E72414E8ED0075318D /* SASFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 18CFE6D92414E8ED0075318D /* SASFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18CFE6F12414E91B0075318D /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CFE6F02414E91B0075318D /* Service.swift */; };
+		18CFE77E24152D0B0075318D /* SASFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CFE77424152D0B0075318D /* SASFrame.framework */; };
+		18CFE78324152D0B0075318D /* SASFrameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CFE78224152D0B0075318D /* SASFrameTests.swift */; };
+		18CFE78524152D0B0075318D /* SASFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 18CFE77724152D0B0075318D /* SASFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		18CFE77F24152D0B0075318D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CFE76B24152D0B0075318D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CFE77324152D0B0075318D;
+			remoteInfo = SASFrame;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		18CFE6D62414E8ED0075318D /* SASFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SASFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18CFE6D92414E8ED0075318D /* SASFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SASFramework.h; sourceTree = "<group>"; };
-		18CFE6DA2414E8ED0075318D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18CFE6F02414E91B0075318D /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		18CFE77424152D0B0075318D /* SASFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SASFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CFE77724152D0B0075318D /* SASFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SASFrame.h; sourceTree = "<group>"; };
+		18CFE77824152D0B0075318D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CFE77D24152D0B0075318D /* SASFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SASFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CFE78224152D0B0075318D /* SASFrameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SASFrameTests.swift; sourceTree = "<group>"; };
+		18CFE78424152D0B0075318D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18CFE6D32414E8ED0075318D /* Frameworks */ = {
+		18CFE77124152D0B0075318D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18CFE77A24152D0B0075318D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CFE77E24152D0B0075318D /* SASFrame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18CFE6CC2414E8ED0075318D = {
+		18CFE76A24152D0B0075318D = {
 			isa = PBXGroup;
 			children = (
-				18CFE6D82414E8ED0075318D /* SASFramework */,
-				18CFE6E32414E8ED0075318D /* SASFrameworkTests */,
-				18CFE6D72414E8ED0075318D /* Products */,
+				18CFE77624152D0B0075318D /* SASFrame */,
+				18CFE78124152D0B0075318D /* SASFrameTests */,
+				18CFE77524152D0B0075318D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		18CFE6D72414E8ED0075318D /* Products */ = {
+		18CFE77524152D0B0075318D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18CFE6D62414E8ED0075318D /* SASFramework.framework */,
+				18CFE77424152D0B0075318D /* SASFrame.framework */,
+				18CFE77D24152D0B0075318D /* SASFrameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18CFE6D82414E8ED0075318D /* SASFramework */ = {
+		18CFE77624152D0B0075318D /* SASFrame */ = {
 			isa = PBXGroup;
 			children = (
-				18CFE6D92414E8ED0075318D /* SASFramework.h */,
-				18CFE6DA2414E8ED0075318D /* Info.plist */,
-				18CFE6F02414E91B0075318D /* Service.swift */,
+				18CFE77724152D0B0075318D /* SASFrame.h */,
+				18CFE77824152D0B0075318D /* Info.plist */,
 			);
-			path = SASFramework;
+			path = SASFrame;
 			sourceTree = "<group>";
 		};
-		18CFE6E32414E8ED0075318D /* SASFrameworkTests */ = {
+		18CFE78124152D0B0075318D /* SASFrameTests */ = {
 			isa = PBXGroup;
 			children = (
+				18CFE78224152D0B0075318D /* SASFrameTests.swift */,
+				18CFE78424152D0B0075318D /* Info.plist */,
 			);
-			path = SASFrameworkTests;
+			path = SASFrameTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		18CFE6D12414E8ED0075318D /* Headers */ = {
+		18CFE76F24152D0B0075318D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CFE6E72414E8ED0075318D /* SASFramework.h in Headers */,
+				18CFE78524152D0B0075318D /* SASFrame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		18CFE6D52414E8ED0075318D /* SASFramework */ = {
+		18CFE77324152D0B0075318D /* SASFrame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18CFE6EA2414E8ED0075318D /* Build configuration list for PBXNativeTarget "SASFramework" */;
+			buildConfigurationList = 18CFE78824152D0B0075318D /* Build configuration list for PBXNativeTarget "SASFrame" */;
 			buildPhases = (
-				18CFE6D12414E8ED0075318D /* Headers */,
-				18CFE6D22414E8ED0075318D /* Sources */,
-				18CFE6D32414E8ED0075318D /* Frameworks */,
-				18CFE6D42414E8ED0075318D /* Resources */,
+				18CFE76F24152D0B0075318D /* Headers */,
+				18CFE77024152D0B0075318D /* Sources */,
+				18CFE77124152D0B0075318D /* Frameworks */,
+				18CFE77224152D0B0075318D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SASFramework;
-			productName = SASFramework;
-			productReference = 18CFE6D62414E8ED0075318D /* SASFramework.framework */;
+			name = SASFrame;
+			productName = SASFrame;
+			productReference = 18CFE77424152D0B0075318D /* SASFrame.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		18CFE77C24152D0B0075318D /* SASFrameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CFE78B24152D0B0075318D /* Build configuration list for PBXNativeTarget "SASFrameTests" */;
+			buildPhases = (
+				18CFE77924152D0B0075318D /* Sources */,
+				18CFE77A24152D0B0075318D /* Frameworks */,
+				18CFE77B24152D0B0075318D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CFE78024152D0B0075318D /* PBXTargetDependency */,
+			);
+			name = SASFrameTests;
+			productName = SASFrameTests;
+			productReference = 18CFE77D24152D0B0075318D /* SASFrameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18CFE6CD2414E8ED0075318D /* Project object */ = {
+		18CFE76B24152D0B0075318D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Tech_Tonic;
 				TargetAttributes = {
-					18CFE6D52414E8ED0075318D = {
+					18CFE77324152D0B0075318D = {
 						CreatedOnToolsVersion = 11.3.1;
-						LastSwiftMigration = 1130;
+					};
+					18CFE77C24152D0B0075318D = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 18CFE6D02414E8ED0075318D /* Build configuration list for PBXProject "SASFramework" */;
+			buildConfigurationList = 18CFE76E24152D0B0075318D /* Build configuration list for PBXProject "SASFrame" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,18 +162,26 @@
 				en,
 				Base,
 			);
-			mainGroup = 18CFE6CC2414E8ED0075318D;
-			productRefGroup = 18CFE6D72414E8ED0075318D /* Products */;
+			mainGroup = 18CFE76A24152D0B0075318D;
+			productRefGroup = 18CFE77524152D0B0075318D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18CFE6D52414E8ED0075318D /* SASFramework */,
+				18CFE77324152D0B0075318D /* SASFrame */,
+				18CFE77C24152D0B0075318D /* SASFrameTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18CFE6D42414E8ED0075318D /* Resources */ = {
+		18CFE77224152D0B0075318D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CFE77B24152D0B0075318D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -140,18 +191,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18CFE6D22414E8ED0075318D /* Sources */ = {
+		18CFE77024152D0B0075318D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CFE6F12414E91B0075318D /* Service.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CFE77924152D0B0075318D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CFE78324152D0B0075318D /* SASFrameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		18CFE78024152D0B0075318D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CFE77324152D0B0075318D /* SASFrame */;
+			targetProxy = 18CFE77F24152D0B0075318D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		18CFE6E82414E8ED0075318D /* Debug */ = {
+		18CFE78624152D0B0075318D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -214,7 +280,7 @@
 			};
 			name = Debug;
 		};
-		18CFE6E92414E8ED0075318D /* Release */ = {
+		18CFE78724152D0B0075318D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,56 +337,85 @@
 			};
 			name = Release;
 		};
-		18CFE6EB2414E8ED0075318D /* Debug */ = {
+		18CFE78924152D0B0075318D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = RDRMVW96A6;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SASFramework/Info.plist;
+				INFOPLIST_FILE = SASFrame/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TechTonic.SASFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechTonic.SASFrame;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		18CFE6EC2414E8ED0075318D /* Release */ = {
+		18CFE78A24152D0B0075318D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = RDRMVW96A6;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SASFramework/Info.plist;
+				INFOPLIST_FILE = SASFrame/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TechTonic.SASFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechTonic.SASFrame;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18CFE78C24152D0B0075318D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RDRMVW96A6;
+				INFOPLIST_FILE = SASFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechTonic.SASFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18CFE78D24152D0B0075318D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RDRMVW96A6;
+				INFOPLIST_FILE = SASFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechTonic.SASFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,25 +424,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18CFE6D02414E8ED0075318D /* Build configuration list for PBXProject "SASFramework" */ = {
+		18CFE76E24152D0B0075318D /* Build configuration list for PBXProject "SASFrame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18CFE6E82414E8ED0075318D /* Debug */,
-				18CFE6E92414E8ED0075318D /* Release */,
+				18CFE78624152D0B0075318D /* Debug */,
+				18CFE78724152D0B0075318D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18CFE6EA2414E8ED0075318D /* Build configuration list for PBXNativeTarget "SASFramework" */ = {
+		18CFE78824152D0B0075318D /* Build configuration list for PBXNativeTarget "SASFrame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18CFE6EB2414E8ED0075318D /* Debug */,
-				18CFE6EC2414E8ED0075318D /* Release */,
+				18CFE78924152D0B0075318D /* Debug */,
+				18CFE78A24152D0B0075318D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CFE78B24152D0B0075318D /* Build configuration list for PBXNativeTarget "SASFrameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CFE78C24152D0B0075318D /* Debug */,
+				18CFE78D24152D0B0075318D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 18CFE6CD2414E8ED0075318D /* Project object */;
+	rootObject = 18CFE76B24152D0B0075318D /* Project object */;
 }

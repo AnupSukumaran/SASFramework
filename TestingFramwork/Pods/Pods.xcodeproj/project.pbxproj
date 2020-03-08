@@ -56,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		15AD616F256868AB7D9BF5031D97C10E /* Pods-TestingFramwork-TestingFramworkUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestingFramwork-TestingFramworkUITests.modulemap"; sourceTree = "<group>"; };
+		1740CEBA8F71BE4C23687D6BA0D46EB9 /* SASFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASFramework.h; path = SASFramework/SASFramework/SASFramework.h; sourceTree = "<group>"; };
 		1A7912206143DB91359BA660BD802D91 /* Pods-TestingFramwork-TestingFramworkUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestingFramwork-TestingFramworkUITests-dummy.m"; sourceTree = "<group>"; };
 		1C97C36B93F921080A07EB650F1AE94B /* Pods-TestingFramwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingFramwork.release.xcconfig"; sourceTree = "<group>"; };
 		27BE292ACF3119219F5908ED56A27AAC /* Pods-TestingFramworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingFramworkTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,7 +65,7 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		49F95739233134ECCB491A97D0E39C64 /* Pods-TestingFramwork-TestingFramworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingFramwork-TestingFramworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A19F97CEDBF67CC2C2345ECCE2AC5C7 /* Pods-TestingFramworkTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestingFramworkTests.modulemap"; sourceTree = "<group>"; };
-		7709BF38F61A15871A7D25B95839B832 /* SASFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASFramework.h; path = SASFramework/SASFramework.h; sourceTree = "<group>"; };
+		6B7E14856F07894CAD819D05D8648038 /* SASFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SASFramework.xcconfig; sourceTree = "<group>"; };
 		825F2F3039E883F37AFC8D13732224FA /* Pods-TestingFramworkTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingFramworkTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8DC614C597C3763A7991C0D43601E814 /* Pods-TestingFramwork-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingFramwork-acknowledgements.plist"; sourceTree = "<group>"; };
 		904FF289FB54EC2C5A7A325DE573BD6A /* Pods-TestingFramworkTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestingFramworkTests-umbrella.h"; sourceTree = "<group>"; };
@@ -79,10 +80,8 @@
 		BA2A2DE97FDBC972B39BEA77C147B921 /* Pods-TestingFramwork-TestingFramworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingFramwork-TestingFramworkUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BD12FBF6F48628237EEAED3A12BF1D6B /* Pods-TestingFramworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingFramworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		BEFC47D73AEF3EA34E05D6FBCB251FBC /* Pods-TestingFramwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestingFramwork-dummy.m"; sourceTree = "<group>"; };
-		C798B9CFCE559174F58C7FB60C18BE8B /* SASFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SASFramework.xcconfig; sourceTree = "<group>"; };
 		CA9823F289F097DAA9BD730B859A8DAB /* Pods-TestingFramwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingFramwork-Info.plist"; sourceTree = "<group>"; };
 		D0D4381152652753A62BD03C0CEB37D8 /* Pods-TestingFramworkTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestingFramworkTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D227599EE95C4D269BBDB67C059C0767 /* SASFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SASFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DECACB1B7D156F6DF11A7D5B55CC9C51 /* Pods_TestingFramwork_TestingFramworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestingFramwork_TestingFramworkUITests.framework; path = "Pods-TestingFramwork-TestingFramworkUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22A6CAF903122DF9270434C443EE9BF /* Pods-TestingFramwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingFramwork.debug.xcconfig"; sourceTree = "<group>"; };
 		F3D003AF742F9A404E957BDAB2312C75 /* Pods-TestingFramworkTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingFramworkTests-Info.plist"; sourceTree = "<group>"; };
@@ -133,14 +132,6 @@
 			path = "Target Support Files/Pods-TestingFramworkTests";
 			sourceTree = "<group>";
 		};
-		1686F7514D834E5561BF2C92C87B4133 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D227599EE95C4D269BBDB67C059C0767 /* SASFramework.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		22232F15C84715718FBEBB36BFB1C7B6 /* Pods-TestingFramwork */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,24 +158,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3F032E0988F14F8764B86AF9F1DCC256 /* Development Pods */ = {
+		6365C102579C0E82058C61E384FF84AC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5397C40ACBB9087BF2D4C1B4548A88C6 /* SASFramework */,
+				6B7E14856F07894CAD819D05D8648038 /* SASFramework.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/SASFramework";
 			sourceTree = "<group>";
-		};
-		5397C40ACBB9087BF2D4C1B4548A88C6 /* SASFramework */ = {
-			isa = PBXGroup;
-			children = (
-				7709BF38F61A15871A7D25B95839B832 /* SASFramework.h */,
-				1686F7514D834E5561BF2C92C87B4133 /* Pod */,
-				9321459B7280D50EB9ABF1E9CEFBC94B /* Support Files */,
-			);
-			name = SASFramework;
-			path = /Users/sukumaranupsukumaran/Desktop/Framework/SASFramework/SASFramework;
-			sourceTree = "<absolute>";
 		};
 		6D99A9FFE0C7D3425440424D9B2B48D7 /* Pods-TestingFramwork-TestingFramworkUITests */ = {
 			isa = PBXGroup;
@@ -200,15 +181,6 @@
 			);
 			name = "Pods-TestingFramwork-TestingFramworkUITests";
 			path = "Target Support Files/Pods-TestingFramwork-TestingFramworkUITests";
-			sourceTree = "<group>";
-		};
-		9321459B7280D50EB9ABF1E9CEFBC94B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C798B9CFCE559174F58C7FB60C18BE8B /* SASFramework.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../TestingFramwork/Pods/Target Support Files/SASFramework";
 			sourceTree = "<group>";
 		};
 		AE75DED07F7C11BC611D91FD0268D3A4 /* Products */ = {
@@ -233,8 +205,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3F032E0988F14F8764B86AF9F1DCC256 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D3829181E5DFC656E8379DB3D8B6FF48 /* Pods */,
 				AE75DED07F7C11BC611D91FD0268D3A4 /* Products */,
 				377E54DD9E03705A4005F1EC0D67FE69 /* Targets Support Files */,
 			);
@@ -246,6 +218,24 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3829181E5DFC656E8379DB3D8B6FF48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEB865F8D9B48949D093B13A470FA15C /* SASFramework */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEB865F8D9B48949D093B13A470FA15C /* SASFramework */ = {
+			isa = PBXGroup;
+			children = (
+				1740CEBA8F71BE4C23687D6BA0D46EB9 /* SASFramework.h */,
+				6365C102579C0E82058C61E384FF84AC /* Support Files */,
+			);
+			name = SASFramework;
+			path = SASFramework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -478,7 +468,7 @@
 		};
 		28EA41576A2164E5CDDDF610937B7791 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C798B9CFCE559174F58C7FB60C18BE8B /* SASFramework.xcconfig */;
+			baseConfigurationReference = 6B7E14856F07894CAD819D05D8648038 /* SASFramework.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -496,7 +486,7 @@
 		};
 		43D3A72EE56F3B628D5B127D81CAD9D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C798B9CFCE559174F58C7FB60C18BE8B /* SASFramework.xcconfig */;
+			baseConfigurationReference = 6B7E14856F07894CAD819D05D8648038 /* SASFramework.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;

@@ -1,12 +1,15 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+#platform :ios, '13.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/AnupSukumaran/SASFrameworkPodSpecs.git'
 
 target 'TestingFramwork' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for TestingFramwork
-    pod "SASFramework", :path => "/Users/sukumaranupsukumaran/Desktop/Framework/SASFramework/SASFramework"
+    pod "SASFramework", '~> 1.0.3'
 
   target 'TestingFramworkTests' do
     inherit! :search_paths
